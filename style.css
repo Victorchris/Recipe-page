@@ -1,0 +1,143 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+   
+    /*font-family: "Young Serif", serif;*/
+    /*font-family: "Outfit", sans-serif;*/
+}
+.container{
+    height: 1500px;
+    width: 640px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    
+    flex-wrap: wrap;
+    gap: 1em;
+  
+  
+
+}
+h1{
+    font-family: "Young Serif";
+    font-weight: 600;
+    flex: 1 0 8rem;
+}
+p{
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 14px;
+    flex: 1 0 8rem;
+    color:  hsl(30, 10%, 34%);
+    
+}
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex: 1 0 8rem;
+    
+}
+.image img{
+    height: 260px;
+    border-radius: 10px;
+    border-bottom: 1px solid hsl(30, 18%, 87%) ;
+     
+    
+}
+.first-text{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    flex: 1 0 8rem;
+}
+.second-text{
+    border: 1px solid hsl(330, 100%, 98%);
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 160px;
+    background-color: hsl(330, 100%, 98%);
+    flex: 1 0 8rem;
+    
+}
+h3{
+    color: hsl(332, 51%, 32%);
+    padding-left: 25px;
+    font-family: "Outfit";
+    font-weight: 700;
+    flex: 1 0 8rem;
+}
+h2{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif";
+    font-weight: 400;
+}
+ul li{
+    padding-bottom: 10px;
+}
+.third-text{
+    margin-left: 40px;
+    margin-right: 40px;  
+}
+.line{
+    margin-left: 40px;
+    margin-right: 40px; 
+    border: 0.5px solid hsl(30, 18%, 87%); 
+}
+.fourth-text{
+    margin-left: 40px;
+    margin-right: 40px; 
+}
+ol li{
+    padding-bottom: 10px;
+}
+.fifth-text{
+    margin-left: 40px;
+    margin-right: 40px; 
+}
+table{
+    border-collapse: collapse;
+}
+
+table tr td{
+    padding: 10px;
+   
+}
+th{
+    text-align: left;
+    padding-left: 30px;
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+td{
+    color: hsl(14, 45%, 36%);
+    font-family: "Outfit";
+    font-weight: 600;
+    font-size: 16px;
+}
+table, th, td{
+    border-bottom: 1px solid hsl(30, 18%, 87%) ;
+}
+th{
+    color: hsl(30, 10%, 34%);
+}
+ ul li{
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+ol li{
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 14px;
+    padding: 4px;
+}
